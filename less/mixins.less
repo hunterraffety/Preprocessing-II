@@ -1,1 +1,10 @@
 // Mixins in here
+.btn-mixin(@width, @height, @radius) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: @width;
+  height: @height;
+  border-radius: @radius;
+  background: darken(teal, 2%);
+}

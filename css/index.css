@@ -168,16 +168,52 @@ img {
   width: 100%;
   margin: 0 auto;
 }
+header {
+  margin: 0 auto;
+  margin-top: 25px;
+  width: 1000px;
+}
+header nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 24px;
+  border-bottom: 2px dashed #c0c0c0;
+}
+header nav a {
+  text-decoration: none;
+  color: #212529;
+  font-size: 16px;
+  padding: 0 0px;
+}
+header nav a:last-child {
+  padding-right: 120px;
+}
+header nav h1 {
+  padding-left: 90px;
+  width: 550px;
+}
 .footer {
-  width: 100%;
+  margin: 0 auto;
+  width: 1000px;
   border-top: 2px dashed silver;
-  background: #FFEBCD;
+  background: #ffebcd;
 }
 .footer p {
   text-align: center;
   color: #212529;
   font-size: 1.6rem;
   padding: 20px;
+}
+.home .cta {
+  border-bottom: 1.5px dashed #c0c0c0;
+}
+.home .cta .header-img {
+  padding-bottom: 13px;
+}
+.home .cta p {
+  padding-bottom: 17px;
 }
 .home .content-section {
   margin: 30px 0;
@@ -198,7 +234,7 @@ img {
 }
 .home .inverse-content {
   padding-bottom: 30px;
-  border-bottom: 2px dashed #C0C0C0;
+  border-bottom: 2px dashed #c0c0c0;
 }
 .home .inverse-content .text-content {
   padding-left: 1%;
@@ -217,11 +253,23 @@ img {
 }
 .home .content-pick {
   padding-top: 30px;
-  border-top: 2px dashed #C0C0C0;
+  border-top: 2px dashed #c0c0c0;
   display: flex;
   justify-content: space-between;
 }
 .home .content-pick .destination {
   width: 30%;
   margin-bottom: 30px;
+}
+.home .content-pick .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 195px;
+  height: 40px;
+  border-radius: 12px;
+  background: #007676;
+  color: white;
+  font-size: 2rem;
+  padding: 10px;
 }

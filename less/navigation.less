@@ -1,1 +1,28 @@
 // Navigation Styles here
+header {
+  margin: 0 auto;
+  margin-top: 25px;
+  width: 1000px;
+
+  nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 24px;
+    border-bottom: 2px dashed @navigation-border;
+    a {
+      text-decoration: none;
+      color: @font-color;
+      font-size: 16px;
+      padding: 0 0px;
+    }
+    a:last-child {
+      padding-right: 120px;
+    }
+    h1 {
+      padding-left: 90px;
+      width: 550px;
+    }
+  }
+}
